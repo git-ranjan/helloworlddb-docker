@@ -1,8 +1,9 @@
 # helloworlddb
 Python Hello World output with Postgresql DB connection
 
-**To run the container**
-docker run -d helloworlddb-docker
+**To run the whole environment on a CentOS Server run the following:**
+wget https://github.com/git-ranjan/helloworlddb-docker/blob/859255025edf0829099ad1a38fabf332d7240e6a/run.sh
+./run.sh
 
 **Example Output:**
 check docker logs <container_id>
@@ -22,3 +23,5 @@ Database connection closed.
  * Debug mode: on
  * Debugger is active!
  * Debugger PIN: 123-127-366
+
+
